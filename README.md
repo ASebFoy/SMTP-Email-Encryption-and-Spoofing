@@ -19,10 +19,17 @@ Encryption Utility: Kleopatra (OpenPGP)
 Scripting: Python for SMTP spoofing
 
 ## Project Structure
-/screenshots     → Ordered step-by-step images of the demonstration
-/keys            → Public keys for fictional users John Insider and Jane Journalist
-/scripts         → Python script used for sending spoofed encrypted emails
-README.md        → Project documentation
+
+/screenshots
+Ordered step-by-step images of the demonstration
+
+/keys
+Public keys for fictional users John Insider and Jane Journalist
+
+/scripts
+Python script used for sending spoofed encrypted emails
+
+README.md
 
 ## Steps
 
@@ -87,11 +94,6 @@ README.md        → Project documentation
 - Enforce strict PGP key verification policies in email clients.
 - Monitor and filter SMTP traffic for spoofing attempts.
 - Educate users that encryption does not guarantee the identity of the sender.
-
-## How to Follow the Demo
-1. View the screenshots in the `/screenshots` folder in numeric order.
-2. The `/keys` folder contains public keys used for encryption.
-3. The `/scripts` folder contains the `spoof_email.py` script used in the final spoofing step.
 
 ## Disclaimer
 This project is intended for educational purposes only. All individuals, domains, and keys are fictional. No real systems, accounts, or data were accessed. Do not attempt this outside of a controlled lab environment with explicit permission.
