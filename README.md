@@ -1,4 +1,4 @@
-# SMTP Email Encryption and Spoofing Demonstration
+# SMTP Email Encryption and Spoofing
 
 ## Scenario
 This lab demonstrates how email encryption (OpenPGP) works in practice, how unencrypted messages can be intercepted, and how spoofed encrypted messages can still mislead recipients if sender verification is not enforced.
